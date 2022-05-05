@@ -1,5 +1,6 @@
 {
   "name": "jason-react-portfolio",
+  "homepage": "https://jasonxwang.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

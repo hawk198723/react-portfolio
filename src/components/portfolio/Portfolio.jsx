@@ -2,10 +2,10 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.jpg";
-import IMG6 from "../../assets/portfolio6.jpg";
+// import IMG3 from "../../assets/portfolio3.jpg";
+// import IMG4 from "../../assets/portfolio4.jpg";
+// import IMG5 from "../../assets/portfolio5.jpg";
+// import IMG6 from "../../assets/portfolio6.jpg";
 import IMGPortfolio from "../../assets/IMGPortfolio.png";
 
 const data = [
@@ -107,7 +107,7 @@ const Portfolio = () => {
           <h3>My Portfolio</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/hawk198723/coinbase"
+              href="https://github.com/hawk198723/react-portfolio"
               className="btn"
               target="_blank"
             >
