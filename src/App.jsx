@@ -7,7 +7,7 @@ import Experience from "./components/experience/Experience";
 import Footer from "./components/footer/Footer";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
-import Services from "./components/services/Services";
+// import Services from "./components/services/Services";
 
 const App = () => {
   return (
