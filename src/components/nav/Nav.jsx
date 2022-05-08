@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./nav.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BsBook } from "react-icons/bs";
-import { RiServiceLine } from "react-icons/ri";
+// import { RiServiceLine } from "react-icons/ri";
 import { BiMessageRoundedDots, BiPhotoAlbum } from "react-icons/bi";
 
 const Nav = () => {
