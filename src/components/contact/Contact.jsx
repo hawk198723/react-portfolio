@@ -52,7 +52,6 @@ const Contact = () => {
           <article className="contact__option">
             <ImWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
-            <h5>+1(510)-***-**64</h5>
             <a
               href="https://api.whatsapp.com/send?phone=5109962264"
               target="_blank"

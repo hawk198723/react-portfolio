@@ -12,7 +12,8 @@ import {
   SiMysql,
   SiRubyonrails,
   SiPostgresql,
-  SiInsomnia,
+  SiMongodb,
+  SiSpring,
 } from "react-icons/si";
 import { DiRuby } from "react-icons/di";
 
@@ -27,29 +28,11 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
           <div className="experience__content">
-            <article className="experience__details">
-              <SiJava className="experience__details-icon" />
-              <div>
-                <h4>Java</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
             <article className="experience__details">
               <SiJavascript className="experience__details-icon" />
               <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-
-            <article className="experience__details">
-              <DiRuby className="experience__details-icon" />
-              <div>
-                <h4>Ruby</h4>
-                <small className="text-light">Experienced</small>
+                <h4>JS</h4>
               </div>
             </article>
 
@@ -57,7 +40,6 @@ const Experience = () => {
               <IoLogoHtml5 className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
 
@@ -65,7 +47,6 @@ const Experience = () => {
               <IoLogoCss3 className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
 
@@ -73,7 +54,6 @@ const Experience = () => {
               <SiTailwindcss className="experience__details-icon" />
               <div>
                 <h4>Tailwind</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
 
@@ -81,7 +61,6 @@ const Experience = () => {
               <SiReact className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
 
@@ -89,20 +68,12 @@ const Experience = () => {
               <SiRedux className="experience__details-icon" />
               <div>
                 <h4>Redux</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
-          </div>
-        </div>
-        {/* END OF FRONTEND */}
-        <div className="experience__backend">
-          <h3>Backend Development</h3>
-          <div className="experience__content">
             <article className="experience__details">
               <IoLogoNodejs className="experience__details-icon" />
               <div>
                 <h4>Node JS</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
 
@@ -110,7 +81,6 @@ const Experience = () => {
               <ImGit className="experience__details-icon" />
               <div>
                 <h4>Git</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
 
@@ -118,15 +88,13 @@ const Experience = () => {
               <SiMysql className="experience__details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
               <SiCodio className="experience__details-icon" />
               <div>
-                <h4>C Language</h4>
-                <small className="text-light">Experienced</small>
+                <h4>C </h4>
               </div>
             </article>
 
@@ -134,23 +102,27 @@ const Experience = () => {
               <SiRubyonrails className="experience__details-icon" />
               <div>
                 <h4>Rails</h4>
-                <small className="text-light">Experienced</small>
               </div>
             </article>
 
             <article className="experience__details">
-              <SiPostgresql className="experience__details-icon" />
+              <SiMongodb className="experience__details-icon" />
               <div>
-                <h4>PostgreSQL</h4>
-                <small className="text-light">Experienced</small>
+                <h4>MongoDB</h4>
               </div>
             </article>
 
             <article className="experience__details">
-              <SiInsomnia className="experience__details-icon" />
+              <SiJava className="experience__details-icon" />
               <div>
-                <h4>Insomnia</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Java</h4>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <SiSpring className="experience__details-icon" />
+              <div>
+                <h4>Spring</h4>
               </div>
             </article>
           </div>

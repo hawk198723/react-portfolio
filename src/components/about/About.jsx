@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>3+ Years Working</small>
             </article>
 
             <article className="about__card">
@@ -33,18 +33,15 @@ const About = () => {
             <article className="about__card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>15+ Completed</small>
+              <small>4+Personal Projects</small>
             </article>
           </div>
           <p>
-            I'm currently a Full-Stack Web developer for Ripemetrics. I am passionate about
-            problem-solving and team building as well as learning new material
-            to further my knowledge in coding. I'm currently looking for
-            software opportunities in web development and full-stack
-            engineering. My current experience includes Javascript, Typescript,
-            Ruby, React, Rails, CSS3, and HTML5. I am an innovative "doer"
-            adept at leading cross-functional teams, with honed Agile and SCRUM
-            experience.
+            As a Full-Stack Web Developer at Ripemetrics, I'm passionate about
+            problem-solving and teamwork. I'm actively seeking opportunities in
+            web development and full-stack engineering to expand my skills, I
+            excel at leading cross-functional teams in the fast-paced world of
+            software development.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

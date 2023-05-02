@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <a href="#" className="foot__logo">
-        Jason
+        Jason Wang
       </a>
       <ul className="permalinks">
         <li>
@@ -25,9 +25,9 @@ const Footer = () => {
         <li>
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
+        {/* <li>
           <a href="#testimonials">Testimonials</a>
-        </li>
+        </li> */}
         <li>
           <a href="#contact">Contact</a>
         </li>
@@ -44,7 +44,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer__copyright">
-        <small>2022 &copy;Jason Wang. All rights reserved.</small>
+        <small>2023 &copy;Jason Wang. All rights reserved.</small>
       </div>
     </footer>
   );
