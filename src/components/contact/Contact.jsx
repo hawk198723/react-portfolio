@@ -38,7 +38,7 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>wang.x.jason@gmail.com</h5>
             <a href="mailto:wang.x.jason@gmail.com" target="_blank">
-              Send a message
+              Email me
             </a>
           </article>
           <article className="contact__option">

@@ -1,9 +1,9 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG2 from "../../assets/portfolio2.png";
 
-import IMGPortfolio from "../../assets/IMGPortfolio.png";
+import IMG3 from "../../assets/portfolio3.png";
 
 const data = [
   {
@@ -56,7 +56,7 @@ const Portfolio = () => {
       <h2>Personal Projects</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {/* {data.map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -73,34 +73,43 @@ const Portfolio = () => {
               </div>
             </article>
           );
-        })}
+        })} */}
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG2} alt="" />
+            <a
+              href="https://movie-app-fullstack-frontend.vercel.app/"
+              target="_blank"
+            >
+              <img src={IMG2} alt="" className="photo" />
+            </a>
           </div>
-          <h3>Crypto Currency Charts & Financial Visulaization</h3>
+          <h3 className="h3">FliFlix</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/hawk198723/coinbase"
+              href="https://github.com/hawk198723/movie-app-fullstack"
               className="btn"
               target="_blank"
             >
               Github
             </a>
-            {/* <a
-              href="https://dribbble.com/Alien_pixels"
+            <a
+              href="https://movie-app-fullstack-frontend.vercel.app/"
               className="btn btn-primary"
-              target="_blank"
             >
               Live Demo
-            </a> */}
+            </a>
           </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMGPortfolio} alt="" />
+            <a
+              href="https://react-portfolio-seven-topaz.vercel.app/"
+              target="_blank"
+            >
+              <img src={IMG3} alt="" className="photo" />
+            </a>
           </div>
-          <h3>My Portfolio</h3>
+          <h3 className="h3">My Portfolio</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/hawk198723/react-portfolio"
@@ -109,13 +118,12 @@ const Portfolio = () => {
             >
               Github
             </a>
-            {/* <a
-              href="https://dribbble.com/Alien_pixels"
+            <a
+              href="https://react-portfolio-seven-topaz.vercel.app/"
               className="btn btn-primary"
-              target="_blank"
             >
               Live Demo
-            </a> */}
+            </a>
           </div>
         </article>
       </div>

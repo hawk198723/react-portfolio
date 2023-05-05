@@ -37,7 +37,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            As a Full-Stack Web Developer at Ripemetrics, I'm passionate about
+            Hi, I'm Jason. As a Full-Stack Developer, I'm passionate about
             problem-solving and teamwork. I'm actively seeking opportunities in
             web development and full-stack engineering to expand my skills, I
             excel at leading cross-functional teams in the fast-paced world of

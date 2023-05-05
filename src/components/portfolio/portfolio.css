@@ -10,6 +10,8 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(transition);
+  flex: 1 1 calc(33.333% - 1.666rem); /* 100 / 3 - gap */
+  margin-bottom: 2.5rem;
 }
 
 portfolio__item:hover {
@@ -18,14 +20,29 @@ portfolio__item:hover {
 }
 
 .portfolio__item-image {
+  display: flex;
+  align-items: center;
+  height: 200px; /* Set a fixed height for the images container */
   border-radius: 1.5rem;
   overflow: hidden;
+
+  border-radius: 1.5rem;
+  position: relative;
+  transition: transform 0.3s;
+}
+
+.portfolio__item-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio__item-image:hover {
+  transform: scale(1.05);
 }
 
 .portfolio__item h3 {
   margin: 1.2rem 0 2rem;
-  /* display: flex;
-  justify-content: center; */
 }
 
 .portfolio__item-cta {
@@ -35,6 +52,16 @@ portfolio__item:hover {
   justify-content: center;
 }
 
+.h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
 /*===========MEDIA QUERIES(MEDIUM DEVICES)==============*/
 @media screen and (max-width: 1024px) {
   .portfolio__container {
