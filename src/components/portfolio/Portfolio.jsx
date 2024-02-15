@@ -77,7 +77,7 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <a
-              href="https://movie-app-fullstack-frontend.vercel.app/"
+              href="https://movieflix-zeta.vercel.app/"
               target="_blank"
             >
               <img src={IMG2} alt="" className="photo" />
