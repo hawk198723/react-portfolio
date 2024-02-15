@@ -83,7 +83,7 @@ const Portfolio = () => {
               <img src={IMG2} alt="" className="photo" />
             </a>
           </div>
-          <h3 className="h3">FliFlix</h3>
+          <h3 className="h3">MoonFlix</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/hawk198723/movie-app-fullstack"
@@ -93,7 +93,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://movie-app-fullstack-frontend.vercel.app/"
+              href="https://movieflix-zeta.vercel.app/"
               className="btn btn-primary"
             >
               Live Demo
@@ -109,7 +109,7 @@ const Portfolio = () => {
               <img src={IMG3} alt="" className="photo" />
             </a>
           </div>
-          <h3 className="h3">My Portfolio</h3>
+          <h3 className="h3">React Portfolio</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/hawk198723/react-portfolio"
@@ -129,13 +129,13 @@ const Portfolio = () => {
             <article className="portfolio__item">
           <div className="portfolio__item-image">
             <a
-              href="https://react-portfolio-seven-topaz.vercel.app/"
+              href="https://jasonxw.com/portfolio/index.html"
               target="_blank"
             >
               <img src={IMG4} alt="" className="photo" />
             </a>
           </div>
-          <h3 className="h3">My Portfolio</h3>
+          <h3 className="h3">Portfolio</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/hawk198723/myPortfolio"
