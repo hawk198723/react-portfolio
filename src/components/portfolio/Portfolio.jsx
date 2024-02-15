@@ -126,6 +126,32 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
+            <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <a
+              href="https://react-portfolio-seven-topaz.vercel.app/"
+              target="_blank"
+            >
+              <img src={IMG4} alt="" className="photo" />
+            </a>
+          </div>
+          <h3 className="h3">My Portfolio</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/hawk198723/myPortfolio"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://jasonxw.com/portfolio/index.html"
+              className="btn btn-primary"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   );
